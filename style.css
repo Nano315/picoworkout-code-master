@@ -1,0 +1,63 @@
+body {
+  font-family: "Raleway", sans-serif;
+  max-width: 414px;
+  margin: 0px 25px;
+  background-color: #05445e;
+  color: #d4f1f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+#entrainements {
+  background-color: #75e6da;
+  color: #05445e;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.container-entrainements {
+  background-color: #189ab4;
+  color: #d4f1f4;
+  padding: 15px;
+  border-radius: 15px;
+  gap: 15px;
+}
+
+.container-exercices {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.exercice {
+  background-color: #189ab4;
+  color: #d4f1f4;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+
+footer {
+    text-align: center;
+}
