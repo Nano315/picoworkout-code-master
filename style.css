@@ -16,7 +16,6 @@ header a {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
 
 .margin-top {
@@ -57,7 +56,52 @@ p {
   border-radius: 15px;
 }
 
+.container-series-poids {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nb-series {
+  border: none;
+  background-color: #05445e;
+  color: #d4f1f4;
+  border-radius: 10px;
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-poids {
+    background-color: #05445e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.act-poids {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-poids {
+    max-width: 50px;
+    min-height: 25px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+}
+
+.btn-save-poids {
+    min-height: 25px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    padding: 0px 10px;
+}
 
 footer {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 10px;
 }
